@@ -12,6 +12,7 @@
 		5198C5B11EC0C75C006E53EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5198C5AF1EC0C75C006E53EC /* Main.storyboard */; };
 		5198C5B31EC0C75C006E53EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5198C5B21EC0C75C006E53EC /* Assets.xcassets */; };
 		5198C5B61EC0C75C006E53EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5198C5B41EC0C75C006E53EC /* LaunchScreen.storyboard */; };
+		5198C5BE1EC0CA7D006E53EC /* EAT ME.png in Resources */ = {isa = PBXBuildFile; fileRef = 5198C5BD1EC0CA7D006E53EC /* EAT ME.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5198C5B21EC0C75C006E53EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5198C5B51EC0C75C006E53EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5198C5B71EC0C75C006E53EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5198C5BD1EC0CA7D006E53EC /* EAT ME.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "EAT ME.png"; path = "../../../Downloads/EAT ME.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		5198C5AA1EC0C75C006E53EC /* Eat Me */ = {
 			isa = PBXGroup;
 			children = (
+				5198C5BD1EC0CA7D006E53EC /* EAT ME.png */,
 				5198C5AB1EC0C75C006E53EC /* AppDelegate.swift */,
 				5198C5AD1EC0C75C006E53EC /* ViewController.swift */,
 				5198C5AF1EC0C75C006E53EC /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5198C5B61EC0C75C006E53EC /* LaunchScreen.storyboard in Resources */,
+				5198C5BE1EC0CA7D006E53EC /* EAT ME.png in Resources */,
 				5198C5B31EC0C75C006E53EC /* Assets.xcassets in Resources */,
 				5198C5B11EC0C75C006E53EC /* Main.storyboard in Resources */,
 			);
