@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Q0B-Sq-95H">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EAT ME.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q0B-Sq-95H">
                                 <rect key="frame" x="67" y="95" width="240" height="110"/>
                             </imageView>
                         </subviews>
@@ -35,9 +35,15 @@
                             <constraint firstItem="Q0B-Sq-95H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="htw-W3-5sK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emLogo" destination="Q0B-Sq-95H" id="3Lj-0f-C32"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="EAT ME.png" width="500" height="200"/>
+    </resources>
 </document>
